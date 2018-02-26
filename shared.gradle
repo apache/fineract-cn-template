@@ -1,4 +1,4 @@
-group 'io.mifos.template'
+group 'org.apache.fineract.cn.template'
 version '0.1.0.BUILD-SNAPSHOT'
 
 ext.versions = [
