@@ -1,17 +1,17 @@
-# Mifos I/O Template
+# Apache Fineract CN Template
 
 [![Join the chat at https://gitter.im/mifos-initiative/mifos.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/mifos-initiative/mifos.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 This project provides a template layout for all Mifos I/O microservices.
 
 ## Abstract
-Mifos I/O is an application framework for digital financial services, a system to support nationwide and cross-national financial transactions and help to level and speed the creation of an inclusive, interconnected digital economy for every nation in the world.
+Apache Fineract CN is an application framework for digital financial services, a system to support nationwide and cross-national financial transactions and help to level and speed the creation of an inclusive, interconnected digital economy for every nation in the world.
 
 ## Steps needed to turn the template project into a real project
 
 1.  Git clone template into {project name} folder
 
-        git clone https://github.com/mifosio/template.git {project name}
+        git clone https://github.com/apache/fineract-cn-template.git {project name}
 
 2.  Delete _.git_
 
