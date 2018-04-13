@@ -29,7 +29,7 @@ Apache Fineract CN is an application framework for digital financial services, a
 
 7.  Import project into IDE
 
-8.  Rename all io.mifos.template packages to io.mifos.{project name}
+8.  Rename all org.apache.fineract.cn.template packages to io.mifos.{project name}
 
 9.  Open _SampleRestConfiguration_ and _SampleServiceConfiguration_, adjust @ComponentScan to reflect the new package name
 
