@@ -18,13 +18,12 @@
  */
 package io.mifos.template.api.v1.domain;
 
-import io.mifos.core.test.domain.ValidationTest;
-import io.mifos.core.test.domain.ValidationTestCase;
-import org.apache.commons.lang.RandomStringUtils;
-import org.junit.runners.Parameterized;
-
 import java.util.ArrayList;
 import java.util.Collection;
+import org.apache.commons.lang.RandomStringUtils;
+import org.apache.fineract.cn.test.domain.ValidationTest;
+import org.apache.fineract.cn.test.domain.ValidationTestCase;
+import org.junit.runners.Parameterized;
 
 public class SampleTest extends ValidationTest<Sample> {
 
