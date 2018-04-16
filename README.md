@@ -1,8 +1,6 @@
 # Apache Fineract CN Template
 
-[![Join the chat at https://gitter.im/mifos-initiative/mifos.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/mifos-initiative/mifos.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-This project provides a template layout for all Apache Fineract CN microservices.
+This project provides a template layout for all Apache Fineract CN services.
 
 ## Abstract
 Apache Fineract CN is an application framework for digital financial services, a system to support nationwide and cross-national financial transactions and help to level and speed the creation of an inclusive, interconnected digital economy for every nation in the world.
@@ -25,11 +23,11 @@ Apache Fineract CN is an application framework for digital financial services, a
 
         gradle wrapper
 
-6.  Open all module specific build.gradle files (api, service, and component-test) and replace value of _group_ with io.mifos.{project name}
+6.  Open all module specific build.gradle files (api, service, and component-test) and replace value of _group_ with org.apache.fineract.cn.{project name}
 
 7.  Import project into IDE
 
-8.  Rename all io.mifos.template packages to io.mifos.{project name}
+8.  Rename all org.apache.fineract.cn.template packages to org.apache.fineract.cn.{project name}
 
 9.  Open _SampleRestConfiguration_ and _SampleServiceConfiguration_, adjust @ComponentScan to reflect the new package name
 
