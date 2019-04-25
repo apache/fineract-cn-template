@@ -1,4 +1,4 @@
-# Apache Fineract CN Template
+# Apache Fineract CN Template [![Build Status](https://api.travis-ci.com/apache/fineract-cn-template.svg?branch=develop)](https://travis-ci.com/apache/fineract-cn-template)
 
 This project provides a template layout for all Apache Fineract CN services.
 
@@ -42,6 +42,11 @@ Apache Fineract CN is an application framework for digital financial services, a
 14. Replace the contents of the README with text describing your new project.
 
 15. Happy coding! ; o) 
+
+16. For Travis-ci.com continuous integration server to start uploading artifacts to Artifactory
+ you need to put into .travis.yml a password that is encrypted with public key of https://travis-ci.com/apache/fineract-cn-newRepositoryNameInGithub
+See [project wiki](https://cwiki.apache.org/confluence/display/FINERACT/Fineract+CN+Project+Structure).
+
 
 ## Versioning
 The version numbers follow the [Semantic Versioning](http://semver.org/) scheme.
