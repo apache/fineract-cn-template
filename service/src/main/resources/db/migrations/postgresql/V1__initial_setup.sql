@@ -18,7 +18,7 @@
 --
 
 CREATE TABLE template_samples (
-  id BIGINT NOT NULL AUTO_INCREMENT,
+  id BIGINT NOT NULL,
   identifier VARCHAR(8) NOT NULL,
   payload VARCHAR(512) NULL,
   CONSTRAINT template_samples_pk PRIMARY KEY (id)
