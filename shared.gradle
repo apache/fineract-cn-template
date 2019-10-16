@@ -84,7 +84,7 @@ artifactory {
         }
     }
 }
-artifactoryPublish.dependsOn('clean','publishToMavenLocal')
+artifactoryPublish.dependsOn('publishToMavenLocal')
 
 
 license {
