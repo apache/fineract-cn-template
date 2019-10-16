@@ -28,10 +28,12 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+  instance:
+    homePageUrl: "http://${eureka.hostname}:2099/template/v1/" # update port, replace 'template'
 
 server:
-  port: 8081
-  contextPath: /template/v1/*
+  port: 2099 # update to correct 20XX port - see demo-server for next free port
+  contextPath: /template/v1/* #replace 'template' with app name
 
 cassandra:
   clusterName: staging_cluster
