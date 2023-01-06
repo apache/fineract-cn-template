@@ -1,4 +1,4 @@
-# Apache Fineract CN Template [![Build Status](https://api.travis-ci.com/apache/fineract-cn-template.svg?branch=develop)](https://travis-ci.com/apache/fineract-cn-template)
+# Apache Fineract CN Template
 
 This project provides a template layout for all Apache Fineract CN services.
 
